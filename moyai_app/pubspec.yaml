@@ -1,0 +1,70 @@
+name: moyai_app
+description: "Moyai, Cross platform Mobile Application"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  provider:
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^5.0.0
+  visibility_detector: ^0.4.0+2
+  flutter_svg: ^2.0.10+1
+  introduction_screen: ^3.1.14
+  google_maps_flutter: ^2.9.0
+  location: ^5.0.0
+  image_picker: ^1.1.2
+  flutter_onboarding_slider: ^1.0.11
+  http: ^1.2.2
+  flutter_secure_storage: ^9.2.2
+  flutter_slidable: ^3.1.1
+  url_launcher: ^6.3.1
+  panorama_viewer: ^2.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - lib/assets/logo/
+     - lib/assets/images/
+     - lib/assets/icons/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+
+  fonts:
+  - family: DMSans
+    fonts:
+         - asset: fonts/dm_font/DMSans-VariableFont.ttf
+
+  - family: Heebo
+    fonts:
+      - asset: fonts/heebo_font/Heebo-Bold.ttf
