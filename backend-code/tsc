@@ -1,0 +1,17 @@
+[nodemon] 3.1.7
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): _._
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node dist/index.js`
+file:///Users/pranish/Moyai-Backend/dist/db/entities/VenueReview.js:35
+\_\_metadata("design:type", User)
+^
+
+ReferenceError: Cannot access 'User' before initialization
+at file:///Users/pranish/Moyai-Backend/dist/db/entities/VenueReview.js:35:31
+at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+
+Node.js v20.14.0
+[nodemon] app crashed - waiting for file changes before starting...[201~
